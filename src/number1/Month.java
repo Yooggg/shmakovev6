@@ -3,16 +3,16 @@ package number1;
 public enum Month {
     JANUARY(1,"Январь"),
     FEBRUARY(2,"Февраль"),
-    MARCH(2,"Март"),
-    APRIL(2,"Апрель"),
-    MAY(2,"Май"),
-    JUNE(2,"Июнь"),
-    JULY(2,"Июль"),
-    AUGUST(2,"Август"),
-    SEPTEMBER(2,"Сентябрь"),
-    OCTOBER(2,"Октябрь"),
-    NOVEMBER(2,"Ноябрь"),
-    DECEMBER(2,"Декабрь");
+    MARCH(3,"Март"),
+    APRIL(4,"Апрель"),
+    MAY(5,"Май"),
+    JUNE(6,"Июнь"),
+    JULY(7,"Июль"),
+    AUGUST(8,"Август"),
+    SEPTEMBER(9,"Сентябрь"),
+    OCTOBER(10,"Октябрь"),
+    NOVEMBER(11,"Ноябрь"),
+    DECEMBER(12,"Декабрь");
 
     private final int num;
     private final String translate;

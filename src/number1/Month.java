@@ -22,6 +22,10 @@ public enum Month {
         this.translate = translate;
     }
 
+    public int getNum() {
+        return num;
+    }
+
     @Override
     public String toString() {
         return translate;

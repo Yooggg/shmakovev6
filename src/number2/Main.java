@@ -15,7 +15,6 @@ public class Main {
         }
 
         ArrayList<Integer> valueOfMap = new ArrayList<>(map.values());
-        LinkedHashMap<String,Integer> sortedList = new LinkedHashMap<>();
         ArrayList<AutoStore> result = new ArrayList<>();
 
         Collections.sort(valueOfMap);
@@ -23,7 +22,6 @@ public class Main {
         for (int num: valueOfMap) {
             for (Map.Entry<String,Integer> entry: map.entrySet()) {
                 if(entry.getValue().equals(num)){
-                    sortedList.put(entry.getKey(),num);
                     for (AutoStore a : AutoStore.values()) {
                         if (entry.getValue().equals(a.getMaxSpeed()))
                             result.add(a);
